@@ -1,7 +1,9 @@
-databaseId: c27e0d18-74c9-4d09-9376-5341ae8a9a25
+In this task, we will be utilizing data from the Global Agro-Ecological Zones (GAEZ) website (https://gaez.fao.org/) and uploading the crop species names
+and their respective possible locations to a database using the functions specified in the DB DAO whitepaper (https://db-dao.vercel.app/lightpaper#writes). 
+The specific database we will be writing to is identified by the databaseId: c27e0d18-74c9-4d09-9376-5341ae8a9a25.
 
-Global Agro-Ecological Zones: https://gaez.fao.org/
+Steps:
 
-Get location (where species were cultivatad)
-Get species name
-Write to DB (using databaseId and functions specified in https://db-dao.vercel.app/lightpaper#writes)
+Retrieve location data (where species were cultivated) from the GAEZ website.
+Retrieve the species name data from the GAEZ website.
+Write the retrieved data (species name and location) to the specified database using the databaseId and functions outlined in the DB DAO whitepaper.
